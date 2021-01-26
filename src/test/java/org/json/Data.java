@@ -6,6 +6,14 @@ public class Data {
 	private Object fname;
 	private Object lname;
 	private Object avatar;
+	private long number;
+	
+	public long getNumber() {
+		return number;
+	}
+	public void setNumber(long number) {
+		this.number = number;
+	}
 	public long getId() {
 		return id;
 	}
