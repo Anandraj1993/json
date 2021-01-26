@@ -6,6 +6,13 @@ public class Data {
 	private Object fname;
 	private Object lname;
 	private Object avatar;
+	private String name;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	private long number;
 	
 	public long getNumber() {
@@ -13,6 +20,7 @@ public class Data {
 	}
 	public void setNumber(long number) {
 		this.number = number;
+
 	}
 	public long getId() {
 		return id;
